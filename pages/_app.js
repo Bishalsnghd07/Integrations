@@ -1,19 +1,10 @@
-// import { Fragment } from "react";
-// import "./global.css";
+import "./global.css";
 
-// function MyApp({ Component, pageProps }) {
-//   return (
-//     <Fragment>
-//       <Head>
-//         <title>Demo</title>
-//         <meta
-//           name="viewport"
-//           content="minimum-scale=1, initial-scale=1, width=device-width"
-//         />
-//       </Head>
-//       <Component {...pageProps} />
-//     </Fragment>
-//   );
-// }
+function MyApp({ Component, pageProps }) {
+  return (
+      <Component {...pageProps} />
+  );
+}
 
-// export default MyApp;
+export default MyApp;
+
