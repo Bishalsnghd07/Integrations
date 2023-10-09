@@ -5,64 +5,64 @@ import JiraCard from "../components/jira-card";
 
 const Integrations = () => {
   return (
-    <div className="flex bg-white w-full h-[103.19rem] overflow-hidden text-left text-[1rem] text-heading font-poppins">
+    <div className="flex bg-white w-fit h-[103.19rem] overflow-hidden text-left text-[1rem] text-heading font-poppins">
       <div className="absolute h-[4.21%] w-[9.79%] top-[4.19%] right-[85.83%] bottom-[91.59%] left-[4.38%] hidden text-[1.88rem] text-white font-made-tommy">
         <div className="absolute h-[72.4%] w-[82.98%] top-[6.79%] left-[17.02%] inline-block">
           forescribe
         </div>
-        <img
+          <img
           className="absolute h-full w-[12.23%] top-[0%] right-[87.77%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group-23.svg"
-        />
+          />
       </div>
-      <img
-        className="absolute h-[1.72%] w-[0.94%] top-[2.48%] right-[12.4%] bottom-[95.81%] left-[86.67%] max-w-full overflow-hidden max-h-full hidden"
-        alt=""
-        src="/search.svg"
-      />
-      <img
-        className="absolute top-[10rem] left-[31.25rem] w-[75.06rem] h-[19rem] object-cover hidden"
-        alt=""
-        src="/image-11@2x.png"
-      />
+          <img
+          className="absolute h-[1.72%] w-[0.94%] top-[2.48%] right-[12.4%] bottom-[95.81%] left-[86.67%] max-w-full overflow-hidden max-h-full hidden"
+          alt=""
+          src="/search.svg"
+          />
+          <img
+          className="absolute top-[10rem] left-[31.25rem] w-[75.06rem] h-[19rem] object-cover hidden"
+          alt=""
+          src="/image-11@2x.png"
+          />
       <div className="absolute top-[4.44rem] left-[100.75rem] w-[17.5rem] h-[17.38rem] hidden text-gray">
         <div className="absolute h-[114.03%] w-full top-[0%] right-[0%] bottom-[-14.03%] left-[0%] rounded-t-none rounded-b-8xs bg-white shadow-[0px_4px_54px_rgba(0,_0,_0,_0.1)] box-border border-[1px] border-solid border-whitesmoke-300" />
-        <div className="absolute top-[5.4%] left-[7.14%] text-[1.13rem] leading-[1.88rem]">
-          Charlie Smith
-        </div>
-        <div className="absolute top-[33.09%] left-[7.14%] leading-[1.88rem]">
-          Account Settings
-        </div>
-        <div className="absolute top-[61.87%] left-[7.14%] leading-[1.88rem]">
-          Help Center
-        </div>
-        <div className="absolute top-[47.48%] left-[7.14%] leading-[1.88rem]">
-          Billing
-        </div>
-        <div className="absolute top-[76.26%] left-[7.14%] leading-[1.88rem]">
-          Privacy Policy
-        </div>
-        <div className="absolute top-[12.95%] left-[7.14%] text-[0.88rem] leading-[1.88rem] text-b778c">
-          charlie@webex.com
-        </div>
+          <div className="absolute top-[5.4%] left-[7.14%] text-[1.13rem] leading-[1.88rem]">
+            Charlie Smith
+          </div>
+            <div className="absolute top-[33.09%] left-[7.14%] leading-[1.88rem]">
+              Account Settings
+            </div>
+              <div className="absolute top-[61.87%] left-[7.14%] leading-[1.88rem]">
+                Help Center
+              </div>
+                <div className="absolute top-[47.48%] left-[7.14%] leading-[1.88rem]">
+                  Billing
+                </div>
+                  <div className="absolute top-[76.26%] left-[7.14%] leading-[1.88rem]">
+                    Privacy Policy
+                  </div>
+                    <div className="absolute top-[12.95%] left-[7.14%] text-[0.88rem] leading-[1.88rem] text-b778c">
+                      charlie@webex.com
+                    </div>
+                    
         <div className="absolute h-[0.36%] w-[100.36%] top-[28.24%] right-[-0.18%] bottom-[71.4%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-300" />
         <div className="absolute h-[0.36%] w-[100.36%] top-[92.27%] right-[-0.18%] bottom-[7.37%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-300" />
         <div className="absolute h-[21.22%] w-[99.29%] top-[92.45%] right-[0.36%] bottom-[-13.67%] left-[0.36%] rounded-t-none rounded-b-8xs bg-whitesmoke-400" />
-        <div className="absolute top-[97.48%] left-[7.14%] leading-[1.88rem] text-heading">
-          Sign Out
-        </div>
-        <img
-          className="absolute h-[8.63%] w-[8.57%] top-[98.56%] right-[7.5%] bottom-[-7.19%] left-[83.93%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/group.svg"
-        />
+          <div className="absolute top-[97.48%] left-[7.14%] leading-[1.88rem] text-heading">
+            Sign Out
+          </div>
+          <img
+            className="absolute h-[8.63%] w-[8.57%] top-[98.56%] right-[7.5%] bottom-[-7.19%] left-[83.93%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/group.svg"
+          />
       </div>
-      <div className="absolute top-[15.75rem] left-[31.25rem] rounded-8xs bg-white w-[75.06rem] h-[41.63rem]" />
+    
       <Menu
         vector="/vector.svg"
         logo="/logo@2x.png"
-        group271="/group-271.svg"
         hover="/hover.svg"
         vector1="/vector1.svg"
         vector2="/vector2.svg"
@@ -116,9 +116,12 @@ const Integrations = () => {
         ellipseDivWidth="0.5rem"
         ellipseDivHeight="0.5rem"
       />
+      <div className="flex-1 h-screen overflow-y-scroll">
+
       <Header
         group15="/group-15.svg"
         group62="/group-62.svg"
+        vector40="/vector-40.svg"
         search="/search1.svg"
         group45="/group-45.svg"
         questionIcon4="/3671842-question-icon-4.svg"
@@ -138,15 +141,21 @@ const Integrations = () => {
         questionIcon4Width="1.5rem"
         questionIcon4Height="1.5rem"
       />
+      </div>
       <div className="absolute top-[6.38rem] left-[31.25rem] w-[44.81rem] h-[4.75rem] text-[1.75rem]">
         <div className="absolute top-[0rem] left-[0rem] font-semibold">
           Integrations
         </div>
         <div className="absolute top-[3.25rem] left-[0rem] text-[1rem] inline-block w-[44.81rem] text-sub-heading">
-          <span>{`Missing your favorite Integration? You can request one `}</span>
+          <span>
+            {`Missing your favorite Integration? You can request one `}
+          </span>
           <span className="text-primery">
-            <a href="/">here</a></span>
-          <span>.</span>
+            <a href="/">here</a>
+          </span>
+          <span>
+            .
+          </span>
         </div>
       </div>
       <Group
@@ -157,18 +166,21 @@ const Integrations = () => {
         groupIconTop="57.56rem"
         groupIconLeft="112rem"
       />
-      <div className="absolute top-[14.19rem] left-[31.25rem] w-[75.06rem] h-[6.31rem]">
-      </div>
+
       <section className="absolute top-[24.75rem] left-[31.25rem] box-border w-[75.06rem] h-[6.31rem]">
-        <main className="absolute top-[0rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200" />
+        <div className="absolute top-[6.28rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200 group hover:bg-pink-500">          
+        </div>
+        <main className="absolute top-[-1.28rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200 group hover:bg-sky-500" />
       </section>
-      <div className="absolute top-[37.31rem] left-[31.25rem] w-[75.06rem] h-[6.31rem]">
-      </div>
+
+      <div className="absolute top-[37.31rem] left-[31.25rem] w-[75.06rem] h-[6.31rem]"></div>
       <div className="absolute top-[44.94rem] left-[31.25rem] w-[75.06rem] h-[6.31rem]">
-        <div className="absolute top-[0rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200" />
+        <div className="absolute top-[-1.3rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200 group hover:bg-lime-300" />
       </div>
       <div className="absolute top-[52.5rem] left-[31.25rem] w-[75.06rem] h-[6.31rem]">
-        <div className="absolute top-[0rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200" />
+        
+      <div className="absolute top-[6.28rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200 group hover:bg-orange-300" />
+        <div className="absolute top-[-1.25rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200 group hover:bg-emerald-300" />
       </div>
       <div className="absolute top-[14.06rem] left-[31.25rem] text-[1.25rem] font-medium"  style={{ whiteSpace: 'nowrap' }}>
         Identity and Single Sign On
@@ -180,9 +192,13 @@ const Integrations = () => {
         Engagement
       </div>
       <div className="absolute top-[18.75rem] left-[32.5rem] rounded-3xs bg-white w-[3.25rem] h-[3.25rem]" />
-      <div className="absolute top-[18.75rem] left-[36.69rem] text-[1.13rem] font-medium"  style={{ whiteSpace: 'nowrap' }}>{`Google Workspace `}</div>
-      <div className="absolute top-[26.31rem] left-[36.69rem] text-[1.13rem] font-medium"  style={{ whiteSpace: 'nowrap' }}>
-        Office 365
+      <div className="absolute top-[18.75rem] left-[36.69rem] text-[1.13rem] font-medium"  
+        style={{ whiteSpace: 'nowrap' }}>
+          {`Google Workspace `}
+      </div>
+      <div className="absolute top-[26.31rem] left-[36.69rem] text-[1.13rem] font-medium"  
+        style={{ whiteSpace: 'nowrap' }}>
+          Office 365
       </div>
       <div className="absolute top-[38.88rem] left-[36.69rem] text-[1.13rem] font-medium">
         Xero
@@ -193,7 +209,7 @@ const Integrations = () => {
       <div className="absolute top-[54rem] left-[36.69rem] text-[1.13rem] font-medium">
         CSV
       </div>
-      <div className="absolute top-[20.5rem] left-[36.69rem] text-b778c"  style={{ whiteSpace: 'nowrap' }}>
+      <div className="absolute top-[20.5rem] left-[36.69rem]  text-b778c"  style={{ whiteSpace: 'nowrap' }}>
         Setup Google Workspace with one-click to work flawlessly with Forescribe
       </div>
       <div className="absolute top-[28.06rem] left-[36.69rem] text-b778c"  style={{ whiteSpace: 'nowrap' }}>
@@ -233,17 +249,17 @@ const Integrations = () => {
         <div className="absolute top-[0.5rem] left-[1.5rem]">Upload</div>
       </div>
       <img
-        className="absolute top-[14.44rem] left-[48.75rem] w-[1.13rem] h-[1.13rem] overflow-hidden"
+        className="absolute top-[14.44rem] left-[48.75rem] w-[1.13rem] h-[1.13rem] overflow-hidden cursor-pointer"
         alt=""
         src="/3671842-question-icon-2.svg"
       />
       <img
-        className="absolute top-[34.56rem] left-[39.13rem] w-[1.13rem] h-[1.13rem] overflow-hidden"
+        className="absolute top-[34.56rem] left-[39.13rem] w-[1.13rem] h-[1.13rem] overflow-hidden cursor-pointer"
         alt=""
         src="/3671842-question-icon-3.svg"
       />
       <img
-        className="absolute top-[62.31rem] left-[40.06rem] w-[1.13rem] h-[1.13rem] overflow-hidden"
+        className="absolute top-[62.31rem] left-[40.06rem] w-[1.13rem] h-[1.13rem] overflow-hidden cursor-pointer"
         alt=""
         src="/3671842-question-icon-41.svg"
       />
@@ -281,18 +297,18 @@ const Integrations = () => {
           src="/untitled4-1@2x.png"
         />
       </div>
-      <div className="absolute top-[26.31rem] left-[42.94rem] rounded-8xs bg-primery w-[3.81rem] h-[1.63rem] opacity-[0.08]" />
-      <img
-        className="absolute h-[0.79%] w-[1.97%] top-[25.92%] right-[61.62%] bottom-[73.29%] left-[36.41%] max-w-full overflow-hidden max-h-full object-cover"
-        alt=""
-        src="/group-384@2x.png"
-      />
+      <div className="absolute top-[26.31rem] left-[42.94rem] rounded-8xs w-[3.81rem] h-[1.63rem]">
+      <img src="/group-396.svg" alt="" />
+      </div>
       <img
         className="absolute top-[18.75rem] left-[48.06rem] w-[3.81rem] h-[1.63rem]"
         alt=""
         src="/group-396.svg"
       />
-      <div className="absolute top-[38.94rem] left-[39.94rem] rounded-8xs bg-primery w-[3.81rem] h-[1.63rem] opacity-[0.08]" />
+      <div className="absolute top-[38.94rem] left-[39.94rem] rounded-8xs w-[3.81rem] h-[1.63rem]"
+      >
+        <img src="/group-396.svg" alt="" />
+      </div>
       <img
         className="absolute h-[0.79%] w-[0.68%] top-[38.16%] right-[65.42%] bottom-[61.05%] left-[33.91%] max-w-full overflow-hidden max-h-full"
         alt=""
@@ -303,18 +319,19 @@ const Integrations = () => {
         alt=""
         src="/vector11.svg"
       />
-      <div className="absolute top-[46.5rem] left-[44rem] rounded-8xs bg-primery w-[3.81rem] h-[1.63rem] opacity-[0.08]" />
-      <img
-        className="absolute h-[0.79%] w-[0.68%] top-[45.49%] right-[62.03%] bottom-[53.73%] left-[37.29%] max-w-full overflow-hidden max-h-full"
-        alt=""
-        src="/vector12.svg"
-      />
+      <div className="absolute top-[46.5rem] left-[44rem] rounded-8xs w-[3.81rem] h-[1.63rem]" 
+      >
+      <img src="/group-396.svg" alt="" />
+      </div>
       <img
         className="absolute h-[0.85%] w-[0.63%] top-[45.43%] right-[60.89%] bottom-[53.73%] left-[38.49%] max-w-full overflow-hidden max-h-full"
         alt=""
         src="/vector13.svg"
       />
-      <div className="absolute top-[54.06rem] left-[39.75rem] rounded-8xs bg-primery w-[3.81rem] h-[1.63rem] opacity-[0.08]" />
+      <div className="absolute top-[54.06rem] left-[39.75rem] rounded-8xs w-[3.81rem] h-[1.63rem]"
+      >
+        <img src="/group-396.svg" alt="" />
+      </div>
       <img
         className="absolute h-[0.79%] w-[0.68%] top-[52.82%] right-[65.57%] bottom-[46.4%] left-[33.75%] max-w-full overflow-hidden max-h-full"
         alt=""
@@ -365,7 +382,7 @@ const Integrations = () => {
       </div>
       <div className="absolute top-[72.63rem] left-[31.25rem] w-[75.06rem] h-[6.31rem] opacity-[0.5] text-[1.13rem]">
         <div className="absolute top-[0rem] left-[0rem] w-[75.06rem] h-[6.31rem]">
-          <div className="absolute top-[0rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200" />
+          <div className="absolute top-[-1.2rem] left-[75.06rem] rounded-3xl [background:linear-gradient(90.11deg,_rgba(255,_255,_255,_0),_rgba(239,_239,_239,_0.5))] box-border w-[75.06rem] h-[6.31rem] [transform:_rotate(180deg)] [transform-origin:0_0] border-[1px] border-solid border-whitesmoke-200" />
         </div>
         <div className="absolute top-[1.56rem] left-[5.44rem] font-medium">
           Slack
