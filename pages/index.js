@@ -362,22 +362,12 @@ const Integrations = () => {
         </div>
       </div>
       <div className="absolute top-[66.06rem] left-[98.19rem] w-[9.13rem] h-[3.56rem] text-[0.88rem] text-white">
-        // <img
-        //   className="absolute top-[2.75rem] left-[8.13rem] w-[1rem] h-[0.81rem]"
-        //   alt=""
-        //   src="/vector-8.svg"
-        // />
         <div className="absolute top-[1rem] left-[0.94rem] w-[8.19rem] h-[1.81rem]">
           <div className="absolute top-[0rem] left-[0rem] rounded-t-8xs rounded-br-none rounded-bl-8xs bg-darkorange w-[8.19rem] h-[1.81rem]" />
           <div className="absolute top-[0.25rem] left-[1.25rem]">
             Coming soon
           </div>
         </div>
-        // <img
-        //   className="absolute top-[0rem] left-[0rem] w-[1.31rem] h-[1.38rem]"
-        //   alt=""
-        //   src="/highlight-05.png"
-        // />
       </div>
       <div className="absolute top-[72.63rem] left-[31.25rem] w-[75.06rem] h-[6.31rem] opacity-[0.5] text-[1.13rem]">
         <div className="absolute top-[0rem] left-[0rem] w-[75.06rem] h-[6.31rem]">
@@ -400,41 +390,21 @@ const Integrations = () => {
         />
       </div>
       <div className="absolute top-[73.63rem] left-[98.19rem] w-[9.13rem] h-[3.56rem] text-[0.88rem] text-white">
-        // <img
-        //   className="absolute top-[2.75rem] left-[8.13rem] w-[1rem] h-[0.81rem]"
-        //   alt=""
-        //   src="/vector-81.svg"
-        // />
         <div className="absolute top-[1rem] left-[0.94rem] w-[8.19rem] h-[1.81rem]">
           <div className="absolute top-[0rem] left-[0rem] rounded-t-8xs rounded-br-none rounded-bl-8xs bg-darkorange w-[8.19rem] h-[1.81rem]" />
           <div className="absolute top-[0.25rem] left-[1.25rem]">
             Coming soon
           </div>
         </div>
-        // <img
-        //   className="absolute top-[0rem] left-[0rem] w-[1.31rem] h-[1.38rem]"
-        //   alt=""
-        //   src="/highlight-051.svg"
-        // />
       </div>
       <JiraCard />
       <div className="absolute top-[81.19rem] left-[98.19rem] w-[9.13rem] h-[3.56rem] text-[0.88rem] text-white">
-        // <img
-        //   className="absolute top-[2.75rem] left-[8.13rem] w-[1rem] h-[0.81rem]"
-        //   alt=""
-        //   src="/vector-82.svg"
-        // />
         <div className="absolute top-[1rem] left-[0.94rem] w-[8.19rem] h-[1.81rem]">
           <div className="absolute top-[0rem] left-[0rem] rounded-t-8xs rounded-br-none rounded-bl-8xs bg-darkorange w-[8.19rem] h-[1.81rem]" />
           <div className="absolute top-[0.25rem] left-[1.25rem]">
             Coming soon
           </div>
         </div>
-        // <img
-        //   className="absolute top-[0rem] left-[0rem] w-[1.31rem] h-[1.38rem]"
-        //   alt=""
-        //   src="/highlight-052.svg"
-        // />
       </div>
     </div>
   );
