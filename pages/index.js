@@ -376,7 +376,7 @@ const Integrations = () => {
         <img
           className="absolute top-[0rem] left-[0rem] w-[1.31rem] h-[1.38rem]"
           alt=""
-          src="/highlight-05.svg"
+          src="/highlight-05.png"
         />
       </div>
       <div className="absolute top-[72.63rem] left-[31.25rem] w-[75.06rem] h-[6.31rem] opacity-[0.5] text-[1.13rem]">
