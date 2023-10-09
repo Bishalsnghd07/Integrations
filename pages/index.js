@@ -45,8 +45,7 @@ const Integrations = () => {
                   </div>
                     <div className="absolute top-[12.95%] left-[7.14%] text-[0.88rem] leading-[1.88rem] text-b778c">
                       charlie@webex.com
-                    </div>
-                    
+                    </div>              
         <div className="absolute h-[0.36%] w-[100.36%] top-[28.24%] right-[-0.18%] bottom-[71.4%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-300" />
         <div className="absolute h-[0.36%] w-[100.36%] top-[92.27%] right-[-0.18%] bottom-[7.37%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-300" />
         <div className="absolute h-[21.22%] w-[99.29%] top-[92.45%] right-[0.36%] bottom-[-13.67%] left-[0.36%] rounded-t-none rounded-b-8xs bg-whitesmoke-400" />
