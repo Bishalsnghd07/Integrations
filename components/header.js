@@ -1,8 +1,4 @@
-import { useMemo, useState, useContext } from "react";
-
-import Loader from "./loader";
-import { Context } from "../context/contextApi";
-
+import { useMemo, useState } from "react";
 
 const Header = ({
   group15,
@@ -79,7 +75,6 @@ const Header = ({
 
   const [isEditing, setIsEditing] = useState(false);
   const [textInput, setTextInput] = useState('');
-  const [loading, setLoading] = useState(true);
 
   const handleTextClick = () => {
     setIsEditing(true);
@@ -98,7 +93,6 @@ const Header = ({
       className="w-[1640px] h-[71px] text-left text-base text-darkslategray font-poppins sm:w-[1600px]"
       style={headerStyle}
     >
-      {loading && <Loader />}
       <div className="absolute h-[98.59%] w-[99.94%] top-[0%] right-[0.06%] bottom-[1.41%] left-[0%] bg-white" />
       <img
         className="absolute h-[36.62%] w-[1.22%] top-[32.39%] right-[7.3%] bottom-[30.99%] left-[91.48%] max-w-full overflow-hidden max-h-full cursor-pointer"
