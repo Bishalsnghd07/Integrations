@@ -208,16 +208,22 @@ const Menu = ({
       />
       <div className="absolute h-[0.1%] w-[100.36%] top-[6.72%] right-[-0.18%] bottom-[93.18%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-200" />
       <img
-        className="absolute h-[3.24%] w-[52.14%] top-[1.72%] right-[23.93%] bottom-[95.04%] left-[23.93%] max-w-full overflow-hidden max-h-full"
+        className="absolute h-[3.24%] w-[52.14%] top-[1.72%] right-[23.93%] bottom-[95.04%] left-[23.93%] max-w-full overflow-hidden max-h-full cursor-pointer"
         alt=""
         src={logo}
       />
       <div className="absolute h-[0.1%] w-[100.36%] top-[85.65%] right-[-0.18%] bottom-[14.25%] left-[-0.18%] box-border border-t-[1px] border-solid border-whitesmoke-200" />
-      <img
-        className="absolute h-[3.05%] w-[11.43%] top-[87.99%] right-[77.86%] bottom-[8.96%] left-[10.71%] max-w-full overflow-hidden max-h-full"
-        alt=""
-        src={group271}
-      />
+      <div className="absolute h-[3.05%] w-[11.43%] top-[87.99%] right-[77.86%] bottom-[8.96%] left-[10.71%]">
+        <button
+          className="cursor-pointer [border:none] p-0 bg-primery absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-10xs"
+          autoFocus={true}
+        />
+        <img
+          className="absolute h-3/6 w-6/12 top-[25%] right-[25%] bottom-[25%] left-[25%] max-w-full overflow-hidden max-h-full"
+          alt=""
+          src="/9040610-person-workspace-icon-1.svg"
+        />
+      </div>
       <div className="absolute h-[4.77%] w-[92.86%] top-[10.49%] right-[3.57%] bottom-[84.75%] left-[3.57%]">
         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] opacity-[0]">
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-8xs bg-primery opacity-[0.08]" />
