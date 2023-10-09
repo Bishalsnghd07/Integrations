@@ -270,7 +270,7 @@ const Integrations = () => {
       <img
         className="absolute top-[26.31rem] left-[32.5rem] rounded-3xs w-[3.25rem] h-[3.25rem] object-cover"
         alt=""
-        src="/rectangle-166@2x.png"
+        src="/rectangle-166.svg"
       />
       <div className="absolute top-[38.88rem] left-[32.5rem] w-[3.25rem] h-[3.25rem]">
         <div className="absolute top-[0rem] left-[0rem] rounded-3xs bg-deepskyblue w-[3.25rem] h-[3.25rem]" />
