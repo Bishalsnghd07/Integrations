@@ -1,5 +1,5 @@
-import { useMemo, useState, useContext } from "react";
-import { Context } from "../context/contextApi";
+import { useMemo, useState } from "react";
+
 
 
 const Header = ({
