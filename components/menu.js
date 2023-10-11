@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 
 const Menu = ({
   vector,
@@ -176,13 +176,15 @@ const Menu = ({
       height: ellipseDivHeight,
     };
   }, [ellipseDivTop, ellipseDivLeft, ellipseDivWidth, ellipseDivHeight]);
+  
 
   return (
+      
     <div
-      className="w-[280px] h-[1049px] text-left text-base text-heading font-poppins"
+      className="w-[17.4996rem] sm:w-[17.4996rem] md:w-[17.4996rem] lg:w-[17.4996rem] xl:w-[17.4996rem] overflow-y-auto h-[65.50rem] md:relative translate-x-[-17.4996rem] md:translate-x-0 transition-all"
       style={menuStyle}
-    >
-      <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-white" />
+    >  
+      <div className="sticky h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-white" />
       <div
         className="absolute top-[899px] left-[0px] bg-black w-[280px] h-20 opacity-[0]"
         style={rectangleDivStyle}
@@ -328,7 +330,7 @@ const Menu = ({
           src={vector7}
         />
       </div>
-      <div className="absolute h-[4.77%] w-[92.86%] top-[51%] right-[3.57%] bottom-[44.23%] left-[3.57%]">
+      <div className="absolute h-[4.77%] w-[92.86%] top-[51%] right-[3.57%] bottom-[44.23%] left-[3.57%] cursor-pointer">
         <div
           className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] opacity-[0]"
           style={groupDivStyle}
@@ -337,7 +339,7 @@ const Menu = ({
           <div className="absolute h-3/5 w-[1.54%] top-[20%] right-[98.46%] bottom-[20%] left-[0%] rounded-21xl bg-primery" />
         </div>
         <div
-          className="absolute top-[26%] left-[21.92%]"
+          className="absolute top-[26%] left-[21.92%] cursor-pointer"
           style={integrationsStyle}
         >
           Integrations
@@ -397,7 +399,7 @@ const Menu = ({
         className="absolute top-[246px] left-[253px] rounded-[50%] bg-darkorange w-2 h-2"
         style={ellipseDivStyle}
       />
-    </div>
+      </div>
   );
 };
 
